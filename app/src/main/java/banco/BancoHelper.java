@@ -19,7 +19,7 @@ public class BancoHelper extends SQLiteOpenHelper {
     private static final String TAG = "sql";
     private static final String TEXT_TYPE = " TEXT";
     private static final String INT = " INTEGER";
-    private static final String NUMBER_TYPE = "REAL";
+    private static final String NUMBER_TYPE = " REAL";
     private static final String VIRGULA = ",";
 
     // Nome do banco

@@ -68,7 +68,7 @@ public class Main3Activity extends AppCompatActivity {
             Snackbar snackbar = Snackbar.make((View) v.getParent(), "Primeiro registro", Snackbar.LENGTH_SHORT);
             snackbar.show();
         } else {
-            atualizarParametros(livroAtual + 1);
+            atualizarParametros(livroAtual - 1);
             livroAtual --;
         }
     }

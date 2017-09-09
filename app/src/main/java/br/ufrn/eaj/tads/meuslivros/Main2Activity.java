@@ -36,7 +36,7 @@ public class Main2Activity extends AppCompatActivity {
 
         livro.setTitulo(titulo.getText().toString());
         livro.setAutor(autor.getText().toString());
-        livro.setAno(autor.getText().toString());
+        livro.setAno(ano.getText().toString());
         livro.setNota(nota.getRating());
 
         bancoHelper.save(livro);
